@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-shell-extension-caffeine\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-01-14 09:59+0800\n"
+"POT-Creation-Date: 2018-05-18 14:11-0700\n"
 "PO-Revision-Date: 2017-05-05 22:28+0900\n"
 "Last-Translator: Jean-Philippe Braun <eon@patapon.info>\n"
 "Language-Team: French\n"
@@ -17,44 +17,50 @@ msgstr ""
 "X-Generator: Poedit 2.0.1\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
-#: extension.js:226
-msgid "Auto suspend and screensaver disabled"
-msgstr "自動サスペンドを無効にしました"
+#: menu.js:40
+msgid "Inhibit suspend globally"
+msgstr ""
 
-#: extension.js:235
-msgid "Auto suspend and screensaver enabled"
-msgstr "自動サスペンドを有効にしました"
+#: menu.js:137
+msgid "No open windows"
+msgstr ""
 
-#: prefs.js:46
+#: prefs.js:47
 msgid "Show Caffeine in top panel"
 msgstr "Caffeine をトップバーに表示する"
 
-#: prefs.js:63 schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:31
-#: schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:32
+#: prefs.js:64 schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:36
+#: schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:37
 msgid "Enable when a fullscreen application is running"
 msgstr "フルスクリーンアプリケーション実行時に有効にする"
 
-#: prefs.js:80
+#: prefs.js:81
 msgid "Restore state across reboots"
 msgstr "再起動後も状態を維持する"
 
-#: prefs.js:96
+#: prefs.js:98
+msgid ""
+"Address Inhibiting Apps including from system(like playing video via "
+"browser, wouldn't missed any app, but not precisely)"
+msgstr ""
+
+#: prefs.js:115
 msgid "Enable notifications"
 msgstr "通知を有効にする"
 
-#: prefs.js:117
+#: prefs.js:136
 msgid "Applications which enable Caffeine automatically"
 msgstr "Caffeine を自動的に有効にするアプリケーション"
 
-#: prefs.js:133
+#: prefs.js:152
 msgid "Add application"
 msgstr "アプリケーションを追加"
 
-#: prefs.js:147
+#: prefs.js:166
 msgid "Create new matching rule"
 msgstr "新規ルール"
 
-#: prefs.js:151
+#: prefs.js:170
 msgid "Add"
 msgstr "追加"
 
@@ -84,12 +90,26 @@ msgid "Show the indicator on the top panel"
 msgstr "Caffeine をトップバーに表示する"
 
 #: schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:26
+msgid "Address inhibitor"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:27
+msgid "Show apps inhibiting suspend or screensaver on the popup menu"
+msgstr ""
+
+#: schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:31
 msgid "Show notifications"
 msgstr "通知を有効にする"
 
-#: schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:27
+#: schemas/org.gnome.shell.extensions.caffeine-plus.gschema.xml:32
 msgid "Show notifications when enabled/disabled"
 msgstr ""
+
+#~ msgid "Auto suspend and screensaver disabled"
+#~ msgstr "自動サスペンドを無効にしました"
+
+#~ msgid "Auto suspend and screensaver enabled"
+#~ msgstr "自動サスペンドを有効にしました"
 
 #~ msgid "Caffeine enabled"
 #~ msgstr "Caféine est activé"
